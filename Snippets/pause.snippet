@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Console Pause</Title>
+      <Author>Student</Author>
+      <Description>Shows exit message and waits for key press.</Description>
+      <Shortcut>pause</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[Console.WriteLine("$Message$");
+Console.ReadKey();]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>Message</ID>
+          <ToolTip>Enter pause message.</ToolTip>
+          <Default>Нажмите любую клавишу для выхода...</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
